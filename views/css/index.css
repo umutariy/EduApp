@@ -1,0 +1,27 @@
+body{
+  width:100%;
+  height:90%;
+}
+.img{
+	background-image:url('../images/b5.jpg');
+	background-repeat:no-repeat;
+	background-size:cover;
+	
+}
+.img:before{
+  content: "";
+  position: absolute;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+.parbut{
+	opacity: 0.5;
+}
+
+.fieldset{
+  background-color:white;
+  opacity:0.9;
+  width: 70%;
+}
